@@ -414,6 +414,11 @@ const config = {
       async: true,
       crossorigin: 'anonymous',
     },
+    {
+      src: 'https://umami.wenhaofree.com/script.js',
+      defer: true,
+      'data-website-id': '871f4046-f21c-4e43-aae2-483143b6fb04',
+    },
   ],
 }
 
