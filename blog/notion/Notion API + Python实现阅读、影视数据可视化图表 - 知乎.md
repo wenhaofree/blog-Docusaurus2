@@ -3,7 +3,7 @@ slug: Notion-API-+-Python-for-Reading,-Visualization-of-Film-and-Television-Data
 title: Notion API + Python实现阅读、影视数据可视化图表 - 知乎
 date: 2023-11-24
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://zhuanlan.zhihu.com/p/570140268 

@@ -3,7 +3,7 @@ slug: Durable-AI-Website-Builder-and-Small-Business-Software-AI-Generation-Blog-
 title: Durable AI Website Builder and Small Business Software-AI生成博客网站
 date: 2023-11-08
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://durable.co/?utm_medium=Twitter&utm_campaign=HaiderTweet1&utm_source=Twitter&utm_content=HaiderTweet1&utm_term=HaiderTweet1 

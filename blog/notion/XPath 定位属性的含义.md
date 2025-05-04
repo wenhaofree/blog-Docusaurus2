@@ -3,7 +3,7 @@ slug: xpath-take-mean
 title: XPath 定位属性的含义
 date: 2023-11-13
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 ## XPath 定位属性的含义

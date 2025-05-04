@@ -3,7 +3,7 @@ slug: How-to-Upload-Files-to-ChatGPT-for-Analysis-and-Answering---Lightning
 title: 如何上传文件到ChatGPT进行分析和回答 - 闪电博
 date: 2023-11-07
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://www.wbolt.com/how-upload-document-chatgpt.html 

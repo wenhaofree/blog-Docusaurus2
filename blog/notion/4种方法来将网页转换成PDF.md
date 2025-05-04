@@ -3,7 +3,7 @@ slug: 4-Ways-to-Convert-a-Web-Page-to-PDF
 title: 4种方法来将网页转换成PDF
 date: 2023-11-11
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://zh.wikihow.com/%E5%B0%86%E7%BD%91%E9%A1%B5%E8%BD%AC%E6%8D%A2%E6%88%90PDF 

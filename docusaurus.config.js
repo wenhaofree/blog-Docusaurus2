@@ -13,6 +13,7 @@ const config = {
   organizationName: 'wenhao',
   projectName: 'blog',
   tagline: '文浩Marvin,一个分享有趣好用APP和网站技术的博主',
+  onBrokenLinks: 'warn',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',

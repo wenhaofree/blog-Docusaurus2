@@ -3,7 +3,7 @@ slug: xpath-take-the-last-element
 title: xpath取最后一个元素
 date: 2023-11-13
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://www.cnblogs.com/z-x-y/p/9718763.html 

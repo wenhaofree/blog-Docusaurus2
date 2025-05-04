@@ -3,7 +3,7 @@ slug: Lightweight-GIF-Recording-Gadget-on-Mac---Kap---Zhihui
 title: Mac 上轻量 GIF 录屏小工具 - Kap - 知乎
 date: 2023-11-14
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://zhuanlan.zhihu.com/p/23333042 

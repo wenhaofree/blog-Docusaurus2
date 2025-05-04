@@ -3,7 +3,7 @@ slug: Ladder---Bypass-Paid-Wall-Tools-Read-all-kinds-of-paid-content-for-free
 title: Ladder-绕过付费墙工具 免费阅读各种付费内容 
 date: 2023-11-22
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 ## 本地部署:

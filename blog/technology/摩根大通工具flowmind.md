@@ -5,7 +5,7 @@ date: 2024-04-29
 authors: wenhao
 tags: [AI, 软件工具]
 keywords: [AI, 软件工具, FlowMind]
-# image: /img/blog/vue-chrome-extension.png
+image: https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/GMTJwdLasAAwMPw.jpg
 # sticky: 6
 ---
 

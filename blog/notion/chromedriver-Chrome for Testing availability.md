@@ -3,7 +3,7 @@ slug: chromedriver-Chrome-for-Testing-availability
 title: chromedriver-Chrome for Testing availability
 date: 2023-11-13
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://googlechromelabs.github.io/chrome-for-testing/ 

@@ -3,7 +3,7 @@ slug: conversion-of-unicode-encoding-in-python-to-Chinese
 title: python中unicode编码转换为中文
 date: 2023-11-17
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://zhuanlan.zhihu.com/p/489885748 

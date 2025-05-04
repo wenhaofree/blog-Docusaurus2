@@ -5,7 +5,7 @@ date: 2024-05-03
 authors: wenhao
 tags: [AI, 软件工具]
 keywords: [AI, 软件工具, 声音克隆]
-# image: /img/blog/vue-chrome-extension.png
+image: https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/SCR-20240503-tbjh.jpeg
 # sticky: 6
 ---
 ![SCR-20240503-tbjh](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/SCR-20240503-tbjh.jpeg)

@@ -3,7 +3,7 @@ slug: Installation-and-use-of-Xpath-Helper
 title: Xpath Helper的安装和使用
 date: 2023-11-13
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://c.biancheng.net/python_spider/xpath-helper.html 

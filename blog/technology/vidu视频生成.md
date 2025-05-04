@@ -5,10 +5,9 @@ date: 2024-04-28
 authors: wenhao
 tags: [AI, 软件工具]
 keywords: [AI, 软件工具, 视频生成]
-# image: /img/blog/vue-chrome-extension.png
+image: https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/SCR-20240428-odoh.png
 # sticky: 6
 ---
-![image-20210905085929546](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/SCR-20240428-odoh.png)
 
 <!-- truncate -->
 **生数科技与清华大学联合发布的 Vidu 视频大模型：创新与突破 的先锋**

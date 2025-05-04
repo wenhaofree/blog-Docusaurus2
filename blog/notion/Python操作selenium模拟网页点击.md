@@ -3,7 +3,7 @@ slug: Python-Operation-selenium-Simulate-Webpage-Click
 title: Python操作selenium模拟网页点击
 date: 2023-11-18
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://blog.csdn.net/weixin_43145427/article/details/125193957 

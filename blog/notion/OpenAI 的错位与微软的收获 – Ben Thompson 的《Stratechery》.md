@@ -3,7 +3,7 @@ slug: OpenAI's-Misalignment-and-Microsoft's-Harvest-–-Stratechery-by-Ben-Thomp
 title: OpenAI 的错位与微软的收获 – Ben Thompson 的《Stratechery》
 date: 2023-11-20
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://stratechery.com/2023/openais-misalignment-and-microsofts-gain/ 

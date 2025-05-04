@@ -3,7 +3,7 @@ slug: How-to-introduce-TailwindCSS-in-Docusaurus
 title: 如何在Docusaurus中引入TailwindCSS
 date: 2023-10-26
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://farer.org/2021/10/08/docusaurus-with-tailwindcss/ 

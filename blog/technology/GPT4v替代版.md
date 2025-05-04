@@ -5,10 +5,9 @@ date: 2024-04-29
 authors: wenhao
 tags: [AI, 软件工具]
 keywords: [AI, 软件工具,GPT-4]
-# image: /img/blog/vue-chrome-extension.png
+image: https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/Jietu20240429-091815@2x-1024x882.jpg
 # sticky: 6
 ---
-![img](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/Jietu20240429-091815@2x-1024x882.jpg)
 
 <!-- truncate -->
 

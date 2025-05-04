@@ -3,7 +3,7 @@ slug: NextJS&Quick-Start-Guide---Strapi-Developer-Docs-|-Strapi-Documentation
 title: NextJS&Quick Start Guide - Strapi Developer Docs | Strapi Documentation 
 date: 2023-10-28
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://docs.strapi.io/dev-docs/quick-start#_1-install-strapi-and-create-a-new-project 

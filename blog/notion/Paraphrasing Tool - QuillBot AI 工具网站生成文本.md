@@ -3,7 +3,7 @@ slug: Paraphrasing-Tool---QuillBot-AI-Tool-Website-Generated-Text
 title: Paraphrasing Tool - QuillBot AI 工具网站生成文本
 date: 2023-11-08
 authors: wenhao
-tags: ['Default']
+tags: ['General']
 keywords: ['Default']
 ---
 https://quillbot.com/ 
