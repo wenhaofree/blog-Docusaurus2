@@ -575,7 +575,7 @@ function hook_RegisterNatives() {
   let symbols = Process.findModuleByName('libart.so').enumerateSymbols()
   for (let i = 0; i < symbols.length; i++) {
     let symbol = symbols[i].name
-    if (symbol.indexOf('CheckJNI') == -1 && symbol.indexOf('JNI') >= 0) {
+    if (symbol.indexOf('CheckJNI') == -1 && symbol.name.indexOf('JNI') >= 0) {
       if (symbol.indexOf('RegisterNatives') >= 0) {
         RegisterNatives_addr = symbols[i].address
         console.log('RegisterNatives_addr: ', RegisterNatives_addr)
@@ -951,10 +951,10 @@ pip install jnitrace
 ### 使用
 
 ```sh
-jnitrace -m attach -l <模块.so> <包名>
+jnitrace -m attach -l &lt;模块.so&gt; &lt;包名&gt;
 ```
 
--m <spawn|attach> 附加方式去运行
+-m &lt;spawn或attach&gt; 附加方式去运行
 
 -o path/output.json 将结果输出到文件上
 
@@ -1079,4 +1079,4 @@ huluda-server 处理了 re.frida.server 文件夹以及该文件夹下的文件�
 
 使用这个 server，不放在/data/local/tmp 目录下，基本可以不用关心 fd 和 maps 的检测
 
-frida-gadget https://bbs.pediy.com/thread-269866.htm
+frida-gadget链接: https://bbs.pediy.com/thread-269866.htm

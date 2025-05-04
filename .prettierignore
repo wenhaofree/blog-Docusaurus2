@@ -1,0 +1,11 @@
+# 忽略MDX文件格式化直到Prettier支持MDX v3
+*.mdx
+*.md
+
+# 构建输出
+build/
+dist/
+.docusaurus/
+
+# 依赖
+node_modules/ 

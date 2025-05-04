@@ -45,10 +45,10 @@ image: /img/blog/jsonpath.png
 | ------ | ---------------------------------------------------------------- |
 | ==     | 等于符号，但数字 1 不等于字符 1(note that 1 is not equal to ‘1’) |
 | !=     | 不等于符号                                                       |
-| <      | 小于符号                                                         |
-| <=     | 小于等于符号                                                     |
-| >      | 大于符号                                                         |
-| >=     | 大于等于符号                                                     |
+| &lt;      | 小于符号                                                         |
+| &lt;=     | 小于等于符号                                                     |
+| &gt;      | 大于符号                                                         |
+| &gt;=     | 大于等于符号                                                     |
 | =~     | 判断是否符合正则表达式，例如[?(@.name =~ /foo.*?/i)]             |
 | in     | 所属符号，例如[?(@.size in [‘S’, ‘M’])]                          |
 | nin    | 排除符号                                                         |
@@ -131,10 +131,10 @@ let names = cities.map((c) => c.name)
 | `$..book[(@.length-1)]`，或 `$..book[-1:]` | 匹配倒数第 1 个 book 节点                    |
 | `$..book[0,1]`，或 `$..book[:2]`           | 匹配前两个 book 节点                         |
 | `$..book[?(@.isbn)]`                       | 过滤含 isbn 字段的节点                       |
-| `$..book[?(@.price<10)]`                   | 过滤`price<10`的节点                         |
+| `$..book[?(@.price&lt;10)]`                   | 过滤`price&lt;10`的节点                         |
 | `$..*`                                     | 递归匹配所有子节点                           |
 
-对应的语法可直接到在 JSONPath 在线验证网站上进行测试。要提一点的是，jsonpath 是支持使用 || 与 && 进行过滤的，比如上面要获取 category 为 fiction，price 大于 10 的语法为`$..book[?(@.price>10 && @.category=="fiction")]` 结果如下
+对应的语法可直接到在 JSONPath 在线验证网站上进行测试。要提一点的是，jsonpath 是支持使用 || 与 && 进行过滤的，比如上面要获取 category 为 fiction，price 大于 10 的语法为`$..book[?(@.price&gt;10 && @.category=="fiction")]` 结果如下
 
 ```json
 [

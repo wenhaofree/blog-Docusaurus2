@@ -5,7 +5,7 @@
 ## 问题记录：
 1. 站点配置三级目录无法加载出内容
     - 因为没有再sidebars.js中配置目录
-    - 方案：需要在sidebar中配置目录；参见“侧边栏目录”文档
+    - 方案：需要在sidebar中配置目录；参见"侧边栏目录"文档
 2. docusaurus的to的路由如何设置
     - 
 3. 想实现skill下拉点击react跳转后只有该react的信息，无其他信息
@@ -32,9 +32,9 @@
 <br>
 <a href="https://wenhao.cn">🖥 Online Preview</a>
 <br><br> 
-<a href="https://vercel.com/new/clone?repository-url=https://github.com/wenhao/blog/tree/main&project-name=blog&repo-name=blog" rel="nofollow"><img src="https://vercel.com/button"></a>
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/wenhao/blog" rel="nofollow"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
-<a href="https://stackblitz.com/github/wenhao/blog" rel="nofollow"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg"></a>
+<a href="https://vercel.com/new/clone?repository-url=https://github.com/wenhao/blog/tree/main&project-name=blog&repo-name=blog" rel="nofollow"><img src="https://vercel.com/button" /></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/wenhao/blog" rel="nofollow"><img src="https://www.netlify.com/img/deploy/button.svg" /></a>
+<a href="https://stackblitz.com/github/wenhao/blog" rel="nofollow"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" /></a>
 </p>
 
 ## 👋 Introduction

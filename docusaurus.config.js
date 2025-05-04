@@ -224,9 +224,9 @@ const config = {
       copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2023 - PRESENT 文浩 Built with Docusaurus.</p>`,
     },
     prism: {
-      theme: require('prism-react-renderer/themes/vsLight'),
-      darkTheme: require('prism-react-renderer/themes/vsDark'),
-      additionalLanguages: ['java', 'php', 'rust', 'toml'],
+      theme: require('prism-react-renderer').themes.vsLight,
+      darkTheme: require('prism-react-renderer').themes.vsDark,
+      additionalLanguages: ['java', 'php', 'rust', 'toml', 'bash', 'diff', 'json'],
       defaultLanguage: 'javascript',
       magicComments: [
         {
@@ -256,12 +256,6 @@ const config = {
         dark: 'rgb(50, 50, 50)',
       },
       config: {},
-    },
-    matomo: {
-      matomoUrl: 'https://fuwenhaoclub.matomo.cloud/',
-      siteId: '1',
-      phpLoader: 'matomo.php',
-      jsLoader: 'matomo.js',
     },
     giscus: {
       repo: 'fwh666/blog-Docusaurus2',
@@ -336,7 +330,6 @@ const config = {
   //   },
   // ],
   plugins: [
-    'docusaurus-plugin-matomo',
     'docusaurus-plugin-image-zoom',
     'docusaurus-plugin-sass',
     path.resolve(__dirname, './src/plugin/plugin-baidu-tongji'),

@@ -31,7 +31,7 @@ objection -N -h <手机ip地址> -p <端口> -g <包名> explore # 指定ip与�
 
 | 选项                              | 功能               |
 | --------------------------------- | ------------------ |
-| -s, --startup-command “hook 命令” | 启动前注入         |
+| -s, --startup-command "hook 命令" | 启动前注入         |
 | -c, –file-commands FILENAME       | 通过文件命令来运行 |
 | --dump-args                       | 打印参数           |
 | --dump-return                     | 打印返回值         |
@@ -99,7 +99,7 @@ android intent launch_activity <activityName>
 ### 插件
 
 :::danger
-注: 在 Window 下插件路径需要使用两个//或使用\，不然会报 Missing `__init__.py`错误
+注: 在 Window 下插件路径需要使用两个`//`或使用`\`，不然会报 Missing ``__init__.py``错误
 :::
 
 #### 加载插件
@@ -137,7 +137,7 @@ plugin wallbreaker objectdump <object-handle> [--fullname] # 输出指定对象�
 
 #### [FRIDA-DEXDump](https://github.com/hluwa/FRIDA-DEXDump)
 
-进入 objection，加载插件 plugin load <插件路径> [指定插件名字]
+进入 objection，加载插件 `plugin load <插件路径> [指定插件名字]`
 
 ```
 plugin load F:\\Frida\\objection-plugin\\FRIDA-DEXDump\\frida_dexdump

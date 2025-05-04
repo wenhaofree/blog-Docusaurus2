@@ -88,7 +88,7 @@ const user = {
 user.foo.value = 3
 ```
 
-可以发现，并不会输出 SET foo 3，主要由展开运算符...所导致的。上面的 user 就等价于{ foo: 1, bar: 2 }
+可以发现，并不会输出 SET foo 3，主要由展开运算符（...）所导致的。上面的 user 就等价于 `{ foo: 1, bar: 2 }`
 
 所以 Vue 则封装了 toRef 和 toRefs 方法，将某个对象的 key 包裹为 ref
 
@@ -138,7 +138,7 @@ toRefs 是解决了响应式的问题，但同时也带来了一个新的问题�
 <p>{{ foo.value }}</p>
 ```
 
-要是我，我肯定不会使用 Vue。所以 Vue 提供自动脱 ref 的能力，通俗点就是省略.value。
+Vue 提供自动脱 ref 的能力，通俗点就是省略.value。
 
 ```javascript
 function proxyRefs(target) {
@@ -184,7 +184,7 @@ function reactive(target) {
     get(target, key, receiver) {
       const res = Reflect.get(target, key, receiver)
 
-      if (typeof res === 'object' && res !== null) {
+      if (typeof res === 'object' &amp;&amp; res !== null) {
         return reactive(res)
       }
 
@@ -208,7 +208,7 @@ function reactive(target) {
 
       const res = Reflect.deleteProperty(target, key)
 
-      if (res && hadKey) {
+      if (res &amp;&amp; hadKey) {
         log('DELETE', key, res)
       }
 

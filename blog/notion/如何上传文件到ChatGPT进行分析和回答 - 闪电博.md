@@ -9,6 +9,9 @@ keywords: ['Default']
 https://www.wbolt.com/how-upload-document-chatgpt.html 
 
 ![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/075aa268-47e4-450a-b631-6c4d28ae7e55/how-upload-document-chatgpt.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T072056Z&X-Amz-Expires=3600&X-Amz-Signature=5600501603a48a302facb6fd2fa27f06fdcb0c2125cf83b49472188dbbf1e2fd&X-Amz-SignedHeaders=host&x-id=GetObject)
+
+<!-- truncate -->
+
 OpenAI一直在为ChatGPT增加一些有趣的功能，包括对网页浏览和 插件 的支持。然而，仍然没有办法原生上传一个文件，并从其上下文中提问。当然，一些用户可以 在他们的数据上训练人工智能聊天机器人 ，但不是每个人都有理解能力来设置工具和库。因此，如果你正在寻找一种简单的方法来上传文件到ChatGPT，本教程将帮助你。我们已经包括了五种不同的方法来上传PDF、Word、Excel和其他文件到ChatGPT。 
 - 使用免费Chrome扩展上传文件到ChatGPT
 - 使用第三方网站向ChatGPT上传PDF文件

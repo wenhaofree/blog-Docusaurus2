@@ -57,7 +57,7 @@ const sidebars = {
         'skill/go/go-send-http-request',
         'skill/go/go-call-js',
         'skill/go/go-concurrent',
-        'skill/go/try-gin-framework'
+        // 'skill/go/try-gin-framework' // 注释掉不存在的文档
       ],
     },
     {
@@ -263,8 +263,8 @@ const sidebars = {
           label: 'MongoDB',
           type: 'category',
           link: {
-            type: 'doc',
-            id: 'skill/database/mongo/mongodb-note',
+            type: 'generated-index',
+            // id: 'skill/database/mongo/mongodb-note', // 注释掉不存在的文档
           },
           items: [
             {
@@ -291,8 +291,8 @@ const sidebars = {
           label: 'Elasticsearch',
           type: 'category',
           link: {
-            type: 'doc',
-            id: 'skill/database/elasticsearch/elasticsearch-note',
+            type: 'generated-index',
+            // id: 'skill/database/elasticsearch/elasticsearch-note', // 注释掉不存在的文档
           },
           items: [
             {

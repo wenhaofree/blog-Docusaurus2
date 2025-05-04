@@ -10,6 +10,10 @@ https://zhuanlan.zhihu.com/p/23333042
 
 Mac 电脑上录屏一直是一个非常大的需求，市场上也有非常多的轻量级产品，比如 Pinapps 曾经给大家介绍过的 LICEcap、Recordit 等都很不错。不过我今天还想再给大家推荐一款同样简单好用的 GIF 录屏工具 - Kap。 
 启动后 Kap 会常驻在系统状态栏上，打开面板后看到一个红色的框选 icon。点击它就可以在屏幕上进行录制区域的框选。 
+
+<!-- truncate -->
+
+
 ![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/425591bf-f11c-455d-bb4a-f937cfd259dc/v2-74e86dac6db12b30026257e7eeedfafd_r.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T072012Z&X-Amz-Expires=3600&X-Amz-Signature=bd1b63141aedddf108ae75006218df2e253f58082e3de159fa5d4bc72af36e11&X-Amz-SignedHeaders=host&x-id=GetObject)
 框定的区域会用虚线标识出来，如果想要调整录制区域可以使用鼠标进行拖拽、拉伸来调整。 
 ![Image](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0012720-ccd1-41ef-9ca9-02f55a45f30f/4a3f06b8-303c-4622-9645-7687bbe4833b/v2-9926be62adcca735ab3862163e65a069_r.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231125T072012Z&X-Amz-Expires=3600&X-Amz-Signature=d9c84ac47ac6b54914d9ded7a97a704f546a47816b8d248518ae78006dd370ea&X-Amz-SignedHeaders=host&x-id=GetObject)

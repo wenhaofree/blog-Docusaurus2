@@ -8,6 +8,8 @@ keywords: ['Default']
 ---
 ## XPath 定位属性的含义
 XPath 定位属性的含义是指使用 XPath 表达式通过 HTML 元素的属性来确定这个元素在页面中的位置。在 HTML 中，元素可以有多个属性，如 `id`、`class`、`name`、`type` 等。XPath 可以利用这些属性来识别特定的元素。
+<!-- truncate -->
+
 
 以下是一些具体的方法：
 
