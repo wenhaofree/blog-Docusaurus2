@@ -1,3 +1,4 @@
+const { to } = require('@react-spring/web')
 const path = require('path')
 const beian = '京ICP备2020034168号-1'
 /** 首页头部提示语链接 */
@@ -52,16 +53,17 @@ const config = {
         {
           label: '博客',
           position: 'right',
-          items: [
-            {
-              label: '标签',
-              to: 'tags',
-            },
-            {
-              label: '归档',
-              to: 'archive',
-            },
-          ],
+          to: 'blog',
+          // items: [
+          //   {
+          //     label: '标签',
+          //     to: 'tags',
+          //   },
+          //   {
+          //     label: '归档',
+          //     to: 'archive',
+          //   },
+          // ],
         },
         {
           label: '更多',
