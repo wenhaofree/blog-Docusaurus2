@@ -6,14 +6,14 @@ const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc"
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '文浩Marvin',
+  title: 'Wenhaofree',
   titleDelimiter: '-',
   url: 'https://wenhaofree.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'wenhao',
   projectName: 'blog',
-  tagline: '文浩Marvin,一个分享有趣好用APP和网站技术的博主',
+  tagline: 'Wenhaofree,一个分享有趣好用APP和网站技术的博主',
   onBrokenLinks: 'warn',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
@@ -25,7 +25,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '文浩Marvin,文浩,Marvin,文浩博客,文浩开发工程师',
+        content: 'Wenhaofree,wenhaofree.com,wenhaofree,文浩博客,文浩开发工程师',
       },
       {
         name: 'keywords',
@@ -42,9 +42,9 @@ const config = {
       },
     },
     navbar: {
-      title: '文浩Marvin',
+      title: 'Wenhaofree',
       logo: {
-        alt: '文浩Marvin',
+        alt: 'Wenhaofree',
         src: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
         srcDark: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
       },
@@ -286,7 +286,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '文浩开发工程师',
+        content: 'Wenhaofree开发工程师',
       },
     },
   ],
@@ -345,7 +345,7 @@ const config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/wenhaofree/blog-Docusaurus2/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '文浩Marvin:个人博客',
+        blogDescription: 'Wenhaofree:个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
         postsPerPage: 10,
@@ -354,8 +354,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '文浩',
-          copyright: `Copyright © ${new Date().getFullYear()} 文浩 <p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: 'Wenhaofree',
+          copyright: `Copyright © ${new Date().getFullYear()} Wenhaofree <p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],

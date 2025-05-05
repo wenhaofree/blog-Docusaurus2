@@ -1,6 +1,6 @@
 export const projects: Project[] = [
   {
-    title: '文浩Marvin',
+    title: 'Wenhaofree',
     description: '基于Docusaurus v2 静态网站生成器实现个人博客',
     preview: '/img/project/blog.png',
     website: 'https://wenhao.cn',

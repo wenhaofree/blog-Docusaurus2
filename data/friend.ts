@@ -6,7 +6,7 @@ export const Friends: Friend[] = [
   //   avatar: '/img/friend/zxuqian.png',
   // },
   {
-    title: '文浩Marvin',
+    title: 'Wenhaofree',
     description: '探索有趣好用APP网站博主,分享各类技术和AIGC项目',
     website: 'https://fuwenhao.club',
     avatar: 'https://leanoss.fuwenhao.club/ieDm1G4JnpKyLa54r8BKIrADDAX7iEjI/touxiang02.png',

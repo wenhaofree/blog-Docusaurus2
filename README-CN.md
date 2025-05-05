@@ -18,3 +18,5 @@
 2. 增加动态说说，图文形式
 3. 写博客验证图文上传功能
 4. 图床写作验证，输出文档，记录图床域名以及配置情况
+- 图床一种是image.wenhaoree.com 是用cloudflare的R2存储，
+- 图床另一种是cdn.wenhaofree.com 是用github的image仓库，用规则做的图床加速；

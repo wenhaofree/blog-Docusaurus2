@@ -31,7 +31,7 @@ function Hero() {
         <animated.div style={trails[0]} className={styles.hero_text}>
           <Translate id="homepage.hero.greet">你好! 我是</Translate>
           <span className={styles.intro__name}>
-            <Translate id="homepage.hero.name">文浩Marvin👋</Translate>
+            <Translate id="homepage.hero.name">Wenhaofree👋</Translate>
           </span>
         </animated.div>
         <animated.p style={trails[1]}>
