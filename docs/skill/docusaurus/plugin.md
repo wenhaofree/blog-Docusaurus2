@@ -29,7 +29,7 @@ plugins: [
         feedOptions: {
           type: 'all',
           title: '文浩',
-          copyright: `Copyright © ${new Date().getFullYear()} 文浩 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          copyright: `Copyright © ${new Date().getFullYear()} 文浩 <p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       }
     ],

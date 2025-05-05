@@ -216,13 +216,13 @@ const config = {
             //   position: 'right',
             //   to: 'website',
             // },
-            {
-              html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`,
-            },
+            // {
+            //   html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`,
+            // },
           ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2023 - PRESENT 文浩 Built with Docusaurus.</p>`,
+      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - 2025 wenhaofree </p>`,
     },
     prism: {
       theme: require('prism-react-renderer').themes.vsLight,
@@ -353,7 +353,7 @@ const config = {
         feedOptions: {
           type: 'all',
           title: '文浩',
-          copyright: `Copyright © ${new Date().getFullYear()} 文浩 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          copyright: `Copyright © ${new Date().getFullYear()} 文浩 <p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],

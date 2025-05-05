@@ -38,5 +38,9 @@
   "link.item.label.掘金": {
     "message": "掘金",
     "description": "The label of footer link with label=掘金 linking to https://juejin.cn/user/2348212569772654"
+  },
+  "copyright": {
+    "message": "<p><a href=\"http://beian.miit.gov.cn/\" >京ICP备2020034168号-1-2</a></p><p>Copyright © 2020 - 2025 wenhaofree </p>",
+    "description": "The footer copyright"
   }
 }
