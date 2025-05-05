@@ -66,9 +66,23 @@ const config = {
           // ],
         },
         {
+          label: '图册',
+          position: 'right',
+          to: 'https://plog.wenhaofree.com',
+        },
+        {
+          label: '关于',
+          position: 'right',
+          to: '/about',
+        },
+        {
           label: '更多',
           position: 'right',
           items: [
+            {
+              label: '归档',
+              to: 'archive',
+            },
             {
               label:'笔记',
               to:'docs/skill/',
@@ -166,7 +180,7 @@ const config = {
               to: 'archive',
             },
             {
-              label: 'Wiki',
+              label: '笔记',
               to: 'docs/skill',
             },
             // {

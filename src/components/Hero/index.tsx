@@ -50,8 +50,8 @@ function Hero() {
               ),
               idea: (
 //                 <Link to="/tags/Life">
-                <Link to="/archive">
-                  <Translate id="hompage.hero.idea">历史博客</Translate>
+                <Link to="/blog">
+                  <Translate id="hompage.hero.idea">我的博客</Translate>
                 </Link>
               ),
             }}

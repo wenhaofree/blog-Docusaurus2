@@ -8,7 +8,6 @@ keywords: [AI, 软件工具, 声音克隆]
 image: https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/SCR-20240503-tbjh.jpeg
 # sticky: 6
 ---
-![SCR-20240503-tbjh](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/SCR-20240503-tbjh.jpeg)
 
 <!-- truncate -->
 
