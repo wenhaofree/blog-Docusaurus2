@@ -113,19 +113,33 @@ function BlogCards() {
   // 博客数据
   const [blogItems, setBlogItems] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(false);
-  const [visibleCount, setVisibleCount] = useState(10);
+  const [visibleCount, setVisibleCount] = useState(12); // 增加初始显示数量
 
-  // 初始化数据
+  // 初始化数据 - 按发布时间倒序排序
   useEffect(() => {
-    const initialItems = allBlogData.slice(0, visibleCount).map(blog => ({
-      permalink: blog.metadata.permalink,
-      title: blog.metadata.title,
-      description: blog.metadata.description,
-      date: blog.metadata.date,
-      tags: blog.metadata.tags,
-      image: blog.metadata.frontMatter.image,
-    }));
-    setBlogItems(initialItems);
+    if (allBlogData.length === 0) return;
+    
+    setLoading(true);
+    // 先转换并排序所有博客数据
+    const sortedBlogData = [...allBlogData]
+      .sort((a, b) => {
+        // 按发布日期倒序排序（新的在前）
+        const dateA = new Date(a.metadata.date);
+        const dateB = new Date(b.metadata.date);
+        return dateB.getTime() - dateA.getTime();
+      })
+      .slice(0, visibleCount)
+      .map(blog => ({
+        permalink: blog.metadata.permalink,
+        title: blog.metadata.title,
+        description: blog.metadata.description,
+        date: blog.metadata.date,
+        tags: blog.metadata.tags,
+        image: blog.metadata.frontMatter.image,
+      }));
+    
+    setBlogItems(sortedBlogData);
+    setLoading(false);
   }, [allBlogData, visibleCount]);
 
   // 加载更多
@@ -134,9 +148,9 @@ function BlogCards() {
     
     setLoading(true);
     setTimeout(() => {
-      setVisibleCount(prev => prev + 10);
+      setVisibleCount(prev => prev + 9); // 每次加载9篇文章（3列×3行）
       setLoading(false);
-    }, 500); // 模拟加载延迟
+    }, 300); // 减少加载延迟
   };
 
   // 监听滚动事件
@@ -144,7 +158,7 @@ function BlogCards() {
     const handleScroll = () => {
       if (
         window.innerHeight + document.documentElement.scrollTop >= 
-        document.documentElement.offsetHeight - 500 &&
+        document.documentElement.offsetHeight - 800 && // 提早触发加载
         !loading &&
         visibleCount < allBlogData.length
       ) {
@@ -164,60 +178,80 @@ function BlogCards() {
 
   return (
     <>
-      <div className={styles.waterfallCardContainer}>
-        {blogItems.map((post) => (
-          <div 
-            key={post.permalink}
-            className={styles.blogCard}
-          >
-            {post.image && (
-              <div className={styles.blogCardImage}>
-                <img
-                  src={post.image}
-                  alt={post.title}
-                  className={styles.cardImage}
-                />
+      {loading && blogItems.length === 0 ? (
+        <LoadingSpinner />
+      ) : (
+        <>
+          <div className={styles.waterfallCardContainer}>
+            {blogItems.map((post) => (
+              <div 
+                key={post.permalink}
+                className={styles.blogCard}
+              >
+                {post.image && (
+                  <div className={styles.blogCardImage}>
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className={styles.cardImage}
+                      loading="lazy" // 添加懒加载
+                    />
+                  </div>
+                )}
+                <div className={styles.blogCardContent}>
+                  <h3 className={styles.blogCardTitle}>
+                    <Link 
+                      to={post.permalink} 
+                      className={styles.blogCardLink}
+                    >
+                      {post.title}
+                    </Link>
+                  </h3>
+                  <div className={styles.blogCardTags}>
+                    {post.tags?.slice(0, 3).map((tag) => (
+                      <Link
+                        key={tag.permalink}
+                        to={tag.permalink}
+                        className={styles.blogTag}
+                      >
+                        {tag.label}
+                      </Link>
+                    ))}
+                  </div>
+                  {post.description && (
+                    <p className={styles.blogCardDescription}>
+                      {post.description}
+                    </p>
+                  )}
+                  <div className={styles.blogCardDate}>{formatDate(post.date)}</div>
+                </div>
               </div>
-            )}
-            <div className={styles.blogCardContent}>
-              <h3 className={styles.blogCardTitle}>
-                <Link 
-                  to={post.permalink} 
-                  className={styles.blogCardLink}
-                >
-                  {post.title}
-                </Link>
-              </h3>
-              <div className={styles.blogCardTags}>
-                {post.tags?.slice(0, 3).map((tag) => (
-                  <Link
-                    key={tag.permalink}
-                    to={tag.permalink}
-                    className={styles.blogTag}
-                  >
-                    {tag.label}
-                  </Link>
-                ))}
-              </div>
-              {post.description && (
-                <p className={styles.blogCardDescription}>
-                  {post.description}
-                </p>
-              )}
-              <div className={styles.blogCardDate}>{formatDate(post.date)}</div>
-            </div>
+            ))}
           </div>
-        ))}
-      </div>
-      
-      {/* 加载更多指示器 */}
-      {loading && <LoadingSpinner />}
-      
-      {/* 显示加载完成信息 */}
-      {visibleCount >= allBlogData.length && allBlogData.length > 0 && (
-        <div className={styles.noMorePosts}>
-          没有更多文章了
-        </div>
+          
+          {/* 加载更多按钮 */}
+          {visibleCount < allBlogData.length && (
+            <div className={styles.loadMoreContainer}>
+              <button 
+                className={styles.loadMoreButton}
+                onClick={loadMore}
+                disabled={loading}
+              >
+                {loading ? '加载中...' : '加载更多'}
+              </button>
+            </div>
+          )}
+          
+          {/* 加载中指示器 */}
+          {loading && <LoadingSpinner />}
+          
+          {/* 显示加载完成信息 */}
+          {visibleCount >= allBlogData.length && allBlogData.length > 0 && (
+            <div className={styles.noMorePosts}>
+              已加载全部文章
+            </div>
+          )}
+        </>
       )}
     </>
   );
@@ -272,7 +306,7 @@ export default function BlogPage() {
             {/* <aside className="col col--2">
               <CategoryNav />
             </aside> */}
-            <main className="col col--10">
+            <main className="col col--12">
               <section className={styles.blogSection}>
                 <h2 className={styles.sectionTitle}>最新文章</h2>
                 <BlogCards />
