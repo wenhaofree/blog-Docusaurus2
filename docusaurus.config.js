@@ -18,6 +18,7 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
+    // 首页顶部提示语
     // announcementBar: {
     //   id: 'announcementBar-3',
     //   content: announcementBarContent,
@@ -29,7 +30,7 @@ const config = {
       },
       {
         name: 'keywords',
-        content: 'java, javascript, typescript, node, react, vue, web, python',
+        content: 'java, javascript, typescript, node, react, vue, web, python, 文浩, 文浩博客, 文浩开发工程师, wenhaofree, ',
       },
       {
         name: 'google-adsense-account',
@@ -45,8 +46,10 @@ const config = {
       title: 'Wenhaofree',
       logo: {
         alt: 'Wenhaofree',
-        src: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
-        srcDark: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
+        // src: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
+        // srcDark: 'https://leanoss.fuwenhao.club/EY85A3N1eez2zuEcxJh71m2MdNqQOxYk/logo.jpg',
+        src: 'img/logo.png',
+        srcDark: 'img/logo.png',
       },
       hideOnScroll: true,
       items: [
