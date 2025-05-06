@@ -5,10 +5,9 @@ date: 2024-04-29
 authors: wenhao
 tags: [AI, 软件工具]
 keywords: [AI, 软件工具, SearchGPT]
-# image: /img/blog/vue-chrome-extension.png
+image: https://image.wenhaofree.com/2025/05/ac9b7afad0664601224b332e6a7dca23.png
 # sticky: 6
 ---
-![image-20240429162719130](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/image-20240429162719130.png)
 
 <!-- truncate -->
 
@@ -17,6 +16,8 @@ keywords: [AI, 软件工具, SearchGPT]
   您的浏览器不支持 video 标签。
 </video>
 **近日，OpenAI 曝光了自己的一款令人瞩目的 AI 问答搜索引擎——SearchGPT。这款搜索引擎带来了全新的搜索体验，给整个行业带来了巨大的压力。**
+
+<img src="https://image.wenhaofree.com/2025/05/ac9b7afad0664601224b332e6a7dca23.png"/>
 
 SearchGPT 支持多种强大的功能。首先，它能够通过聊天问答的形式搜索全网的任何内容，让用户能够轻松获取所需信息。其次，它还支持图像搜索，为用户提供更丰富的搜索方式。
 

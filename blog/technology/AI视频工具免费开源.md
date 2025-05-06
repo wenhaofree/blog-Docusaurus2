@@ -5,16 +5,17 @@ date: 2024-04-18
 authors: wenhao
 tags: [AI, 软件工具, AI视频生成]
 keywords: [AI, 软件工具, AI视频生成]
-# image: /img/blog/vue-chrome-extension.png
+image: https://image.wenhaofree.com/2025/05/f02a4ecc8510cc56e9bf51ca9a55d4f4.png
 # sticky: 6
 ---
 
-![WX20240419-155529@2x](https://cdn.wenhaofree.com/gh/wenhaofree/Image/blog/WX20240419-155529@2x.png)
+
 
 <!-- truncate -->
 
 # 流媒体T2V
 
+<img src="https://image.wenhaofree.com/2025/05/f02a4ecc8510cc56e9bf51ca9a55d4f4.png"/>
 
 *StreamingT2V 是一种先进的自回归技术，可以创建具有丰富运动动态且没有任何停滞的长视频。它确保整个视频的时间一致性，与描述性文本紧密结合，并保持高帧级图像质量。我们的演示包括高达 1200 帧、时长 2 分钟的视频的成功示例，并且可以延长更长的持续时间。重要的是，StreamingT2V 的有效性不受所使用的特定 Text2Video 模型的限制，这表明基础模型的改进可以产生更高质量的视频。*
 
