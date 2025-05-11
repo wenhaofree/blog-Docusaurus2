@@ -10,7 +10,7 @@ image: https://prds98.com/media/article_cover/20220227/docker_postgresql.png
 ---
 
 本文将详细介绍如何将 Windows 系统上通过 Docker 运行的 PostgreSQL 数据库，完整迁移到 Mac 系统中。无论您是更换开发设备，还是需要在不同操作系统间同步数据库环境，本教程都将提供清晰的步骤指导。我们将涵盖两种主要的迁移方法：使用 SQL 备份和直接迁移数据目录，以适应不同大小的数据库和需求。
-
+<!-- truncate -->
 ### 一、在Windows上备份PostgreSQL数据
 
 在 Windows 系统上，我们首先需要备份源 PostgreSQL 数据库。假设您在 Windows Docker中的 PostgreSQL 容器名为 `haoju-postgres`。
