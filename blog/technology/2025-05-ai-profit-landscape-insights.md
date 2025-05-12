@@ -2,12 +2,16 @@
 title: 2025年5月搞钱风向：AI这波机会，普通人怎么抓？
 slug: 2025-05-ai-profit-landscape-insights
 authors: clines
+date: 2025-05-12
+keywords: [风向标, AI, 赚钱机会, 内容创作, 趋势分析, 创业点子]
 tags: [风向标, AI, 赚钱机会, 内容创作, 趋势分析, 创业点子]
 image: https://image.wenhaofree.com/2025/05/46c9f7a06d012ebfc9473bc62e5570b5.png
 ---
 
 最近刷了刷知识分享平台上的“#风向标#”，发现AI这玩意儿可真是无孔不入啊！各行各业都能看到它的身影，也冒出来不少新鲜的赚钱门路和创业点子。这不单单是技术上的小打小闹，感觉整个做生意的思路都要跟着变了。咱这就一起瞅瞅，这里面有啥激动人心的机会。
 <img src="https://image.wenhaofree.com/2025/05/46c9f7a06d012ebfc9473bc62e5570b5.png"/>
+
+<!-- truncate -->
 
 **一、 AI帮咱做内容：多平台捞金不是梦**
 
