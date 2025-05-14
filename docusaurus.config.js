@@ -303,8 +303,28 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: 'Wenhaofree开发工程师',
+        content: 'Wenhaofree的个人博客，专注于分享Java、JavaScript、TypeScript、Node、React、Vue、Web开发、Python等编程技术与知识。同时，这里也是一个发现有趣好用APP和实用网站资源的平台。作者文浩，一位热衷于技术探索的开发工程师。',
       },
+    },
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Wenhaofree',
+        url: 'https://wenhaofree.com/',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: 'https://wenhaofree.com/search?q={search_term_string}',
+          },
+          'query-input': 'required name=search_term_string',
+        },
+      }),
     },
   ],
   presets: [
