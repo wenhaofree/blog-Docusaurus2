@@ -101,9 +101,7 @@ image: https://img.kuizuo.cn/image-20220511170700075.png
 
 ## Serverless
 
-同时 vercel 还支持 serverless，也就是说，不仅能部署静态站点，还能部署后端服务，不过肯定有一定的限制。
-
-[Vercel 部署 Serverless](/vercel-deploy-serverless)
+<!-- [Vercel 部署 Serverless](/vercel-deploy-serverless) -->
 
 ## Edge Functions
 
@@ -133,10 +131,10 @@ vercel --prod
 
 ```
 Vercel CLI 24.2.1
-? Set up and deploy “F:\Project\React\online-tools”? [Y/n] y
+? Set up and deploy "F:\Project\React\online-tools"? [Y/n] y
 ? Which scope do you want to deploy to? wenhao
 ? Link to existing project? [y/N] n
-? What’s your project’s name? online-tools
+? What's your project's name? online-tools
 ? In which directory is your code located? ./
 Auto-detected Project Settings (Create React App):
 - Build Command: react-scripts build
@@ -157,15 +155,17 @@ Auto-detected Project Settings (Create React App):
 如果想在 github actions 中使用，则新建一个 steps，设置好对应的变量。
 
 ```
-	- name: Deploy to Vercel
-        run: npx vercel --token ${{VERCEL_TOKEN}} --prod
-        env:
-            VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-            VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-            VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+- name: Deploy to Vercel
+    run: npx vercel --token ${{VERCEL_TOKEN}} --prod
+    env:
+        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
 ```
 
 还有一个 VERCEL_TOKEN 需要到 [Vercel Settings Tokens](https://vercel.com/account/tokens) 新建一个 Token。
+
+## Vercel 的限制
 
 ## 总结
 
