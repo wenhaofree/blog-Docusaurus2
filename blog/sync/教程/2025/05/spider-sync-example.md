@@ -1,5 +1,5 @@
 ---
-title: "Spider-sync 使用示例04"
+title: "Spider-sync 使用示例05"
 slug: "spider-sync-example"
 description: "这是一个Spider-sync同步工具的使用示例文档"
 tags: ["技术", "工具", "自动化"]
