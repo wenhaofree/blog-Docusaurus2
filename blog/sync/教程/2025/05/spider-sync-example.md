@@ -1,9 +1,9 @@
 ---
-title: "Spider-sync 使用示例03"
+title: "Spider-sync 使用示例04"
 slug: "spider-sync-example"
 description: "这是一个Spider-sync同步工具的使用示例文档"
 tags: ["技术", "工具", "自动化"]
-keywords: ["技术", "工具", "自动化"]
+keywords: ["技术", "工具"]
 category: "教程"
 authors: "wenhao"
 date: "2025-05-23"
