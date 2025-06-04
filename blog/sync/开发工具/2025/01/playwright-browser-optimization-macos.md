@@ -8,7 +8,7 @@ category: "开发工具"
 authors: "wenhao"
 date: "2025-01-27"
 status: "Published"
-image: "https://image.wenhaofree.com/2025/01/playwright-optimization.png"
+image: "https://image.wenhaofree.com/2025/06/f76893af5d36b68cad54d0986c5da818.png"
 ---
 
 作为一名经常使用 Playwright 进行自动化测试的开发者，你是否遇到过这样的困扰：每次运行测试脚本时，Playwright 都要重新下载几百 MB 的浏览器文件，不仅浪费时间，还消耗大量带宽？特别是在网络环境不佳的情况下，这简直是开发者的噩梦！
